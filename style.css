@@ -1,4 +1,3 @@
-/* Estilo para a lista de tarefas */
 #listaTarefas {
     list-style-type: none;
     padding: 0;
@@ -21,13 +20,11 @@
     background-color: #f0f0f0;
 }
 
-/* Estilo para a tarefa concluída */
 .tarefa-concluida {
     text-decoration: line-through;
     color: #999;
 }
 
-/* Estilo para os botões */
 button {
     background-color: #007bff;
     color: #fff;
@@ -44,7 +41,6 @@ button:hover {
     background-color: #0056b3;
 }
 
-/* Estilo específico para o botão de editar */
 button.edit {
     background-color: #28a745;
 }
@@ -53,7 +49,6 @@ button.edit:hover {
     background-color: #218838;
 }
 
-/* Estilo específico para o botão de apagar */
 button.del {
     background-color: #dc3545;
 }
@@ -66,7 +61,6 @@ input.checkbox {
     margin-right: 10px;
 }
 
-/* Estilo para a tarefa concluída */
 .tarefa-concluida {
     text-decoration: line-through;
     color: #999;

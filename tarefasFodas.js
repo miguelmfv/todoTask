@@ -21,7 +21,7 @@ document.getElementById('formTarefa').addEventListener('submit', function(e){
         buttonEdit.textContent = 'Editar';
         buttonEdit.classList.add('edit');
         buttonEdit.addEventListener('click', function(){
-            const info = prompt('Informe o que deseja editar: ');
+            const info = prompt('Informe o que deseja editar ');
             novaTarefa.firstChild.textContent = info;
         });
         novaTarefa.appendChild(buttonEdit);
